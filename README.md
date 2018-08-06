@@ -71,6 +71,7 @@ based on the definitions provided by this module.
 
 ## API
 
+```javascript
 import AQLBuilder from 'aql';
 
 // get an instance of the AQL Builder
@@ -177,3 +178,4 @@ query.create()
                     )
             )
     );
+```
