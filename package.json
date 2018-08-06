@@ -1,0 +1,33 @@
+{
+  "name": "aql",
+  "version": "1.0.0",
+  "description": "API Query Language is a simple and extensible protocol for querying APIs",
+  "main": "AQL.mjs",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --no-warnings --experimental-modules ./node_modules/.bin/section ./test/*.mjs --dev --log-level=error+ --log-module=*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/distributed-systems/aql.git"
+  },
+  "keywords": [
+    "AQL",
+    "API",
+    "query"
+  ],
+  "author": "Lina van der Weg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/distributed-systems/aql/issues"
+  },
+  "homepage": "https://github.com/distributed-systems/aql#readme",
+  "devDependencies": {
+    "section-tests": "^2.2.0"
+  },
+  "dependencies": {
+    "ee-log": "^3.0.6"
+  }
+}
